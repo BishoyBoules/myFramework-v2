@@ -1,0 +1,112 @@
+:root {
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+    --primary-background: #eee;
+    --default-background: #043a35;
+    --red-background: red;
+    --blue-background: blue;
+    --green-background: green;
+    --standard-color: white;
+    --standard-text-color: black;
+    --form-border-color: #c7c7c7;
+}
+
+.secondary-button,
+.navbar,
+.header .header-links .icon span,
+.primary-button:hover {
+    background-color: var(--main-color);
+}
+
+.header .header-links ul a,
+.copyrights,
+.copyrights .container .col i {
+    color: var(--main-color);
+}
+
+.primary-button,
+.secondary-button:hover,
+.header,
+.copyrights {
+    background-color: var(--secondary-color);
+}
+
+.primary-button,
+.secondary-button,
+.subscribe .subscribe-button,
+#default-color,
+#red-color,
+#green-color,
+#blue-color {
+    color: var(--standard-color);
+}
+
+i,
+.navbar,
+.navbar a,
+.about,
+.service,
+.contact,
+.footer,
+.hot-links li a {
+    color: var(--secondary-color);
+}
+
+.about,
+.service-image,
+.service .full-container .container .service-item,
+.contact,
+.header .links .icon span {
+    background-color: var(--primary-background);
+}
+
+.service,
+.footer {
+    background-color: var(--standard-color);
+}
+
+.map,
+.subscribe input {
+    border-color: var(--secondary-color);
+}
+
+.form textarea,
+.form input {
+    border-color: var(--form-border-color);
+}
+
+#default-color {
+    background-color: var(--default-background);
+}
+
+#red-color {
+    background-color: var(--red-background);
+}
+
+#blue-color {
+    background-color: var(--blue-background);
+}
+
+#green-color {
+    background-color: var(--green-background);
+}
+
+#default-color:hover {
+    color: var(--standard-text-color);
+    background-color: var(--standard-color);
+}
+
+#red-color:hover {
+    color: var(--standard-text-color);
+    background-color: var(--standard-color);
+}
+
+#blue-color:hover {
+    color: var(--standard-text-color);
+    background-color: var(--standard-color);
+}
+
+#green-color:hover {
+    color: var(--standard-text-color);
+    background-color: var(--standard-color);
+}
